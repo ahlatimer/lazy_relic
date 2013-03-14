@@ -1,3 +1,6 @@
+require 'newrelic_rpm'
+require 'lazy_resource'
+
 module LazyRelic
   class Metrics
     class << self
