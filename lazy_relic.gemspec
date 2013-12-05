@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = LazyRelic::VERSION
 
   gem.add_dependency 'lazy_resource', '>= 0.4.0'
-  gem.add_dependency 'newrelic_rpm'
+  gem.add_dependency 'newrelic_rpm', '>= 3.6.7'
 end
